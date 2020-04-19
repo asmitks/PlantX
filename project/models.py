@@ -1,6 +1,8 @@
 from . import db
 from flask_login import UserMixin
 class Users(UserMixin, db.Model):
+    def get_id(self):
+           return (self.UserID)
     UserID = db.Column(db.String(100), primary_key=True) # primary keys are required by SQLAlchemy
     # email = db.Column(db.String(100), unique=True)
     Password = db.Column(db.String(100))

@@ -1,9 +1,10 @@
-from flask import Blueprint, render_template, redirect, url_for, request
+from flask import Blueprint, render_template, redirect, url_for, request, flash
 from werkzeug.security import generate_password_hash, check_password_hash
 from .models import Users
 from .models import Customer,Gardener
-
+from flask_login import login_user, logout_user, login_required
 from . import db
+import random
 auth = Blueprint('auth', __name__)
 
 @auth.route('/login', methods=['POST'])
@@ -17,7 +18,7 @@ def login_post():
     # check if user actually exists
     # take the user supplied password, hash it, and compare it to the hashed password in database
     if not user or not check_password_hash(user.Password, password):
-        # flash('Please check your login details and try again.')
+        flash('Please check your login details and try again.')
         return redirect(url_for('auth.login')) # if user doesn't exist or password is wrong, reload the page
 
     # if the above check passes, then we know the user has the right credentials
@@ -40,14 +41,23 @@ def signup_post():
     address = request.form.get('address')
     age = request.form.get('age')
     password = request.form.get('password')
+    cid="c"+str(random.randint(1,100))
+    k=Customer.query.order_by(Customer.CustomerID).all()
+    next_cid=[]
+    for i in k:
+        next_cid.append(int(str(i.CustomerID).replace('c','')))
+    next_cid.sort()
+    my_id="c"+str(next_cid[-1]+1)
+    print(my_id)
 
-    new_customer=Customer(CustomerID="c1",First_Name=firstName,Last_Name=lastName,Phone_Number=phonenumber,EmailID=email,Locality=locality,Address=address,Age=age)
-    new_user = Users(UserID="c1",Username=userName, Password=generate_password_hash(password, method='sha256'))
+    new_customer=Customer(CustomerID=my_id,First_Name=firstName,Last_Name=lastName,Phone_Number=phonenumber,EmailID=email,Locality=locality,Address=address,Age=age)
+    new_user = Users(UserID=my_id,Username=userName, Password=generate_password_hash(password, method='sha256'))
 
 
     user = Users.query.filter_by(Username=userName).first() # if this returns a user, then the email already exists in database
 
     if user: # if a user is found, we want to redirect back to signup page so user can try again
+        flash('Ooops Username already exists')
         return redirect(url_for('auth.signupCustomer'))
 
     # create new user with the form data. Hash the password so plaintext version isn't saved.
@@ -80,9 +90,15 @@ def signup_post_g():
     address = request.form.get('address')
     age = request.form.get('age')
     password = request.form.get('password')
-
-    new_gardener=Gardener(GardenerID="g1",First_Name=firstName,Last_Name=lastName,Phone_Number=phonenumber,Locality=locality,Address=address,Age=age,Speciality=speciality,Date_of_joining=date,Experience=experience,Price_Range=priceRange,Identification=identification)
-    new_user = Users(UserID="g1",Username=userName, Password=generate_password_hash(password, method='sha256'))
+    k=Gardener.query.order_by(Gardener.GardenerID).all()
+    next_cid=[]
+    for i in k:
+        next_cid.append(int(str(i.GardenerID).replace('c','')))
+    next_cid.sort()
+    my_id="g"+str(next_cid[-1]+1)
+    print(my_id)
+    new_gardener=Gardener(GardenerID=my_id,First_Name=firstName,Last_Name=lastName,Phone_Number=phonenumber,Locality=locality,Address=address,Age=age,Speciality=speciality,Date_of_joining=date,Experience=experience,Price_Range=priceRange,Identification=identification)
+    new_user = Users(UserID=my_id,Username=userName, Password=generate_password_hash(password, method='sha256'))
 
 
     user = Users.query.filter_by(Username=userName).first() # if this returns a user, then the email already exists in database
@@ -102,39 +118,11 @@ def signup_post_g():
 
     return redirect(url_for('auth.login'))
 
-
-# @auth.route('/signupGardener',methods=['POST'])
-# def signup_post():
-#     email = request.form.get('email')
-#     firstName = request.form.get('firstName')
-#     lastName = request.form.get('lastName')
-#     userName = request.form.get('userName')
-#     phonenumber = request.form.get('phonenumber')
-#     locality = request.form.get('locality')
-#     address = request.form.get('address')
-#     age = request.form.get('age')
-#     password = request.form.get('password')
-
-#     new_customer=Customer(CustomerID="c1",First_Name=firstName,Last_Name=lastName,Phone_Number=phonenumber,EmailID=email,Locality=locality,Address=address,Age=age)
-#     new_user = Users(UserID="c1",Username=userName, Password=generate_password_hash(password, method='sha256'))
-
-
-#     user = Users.query.filter_by(Username=userName).first() # if this returns a user, then the email already exists in database
-
-#     if user: # if a user is found, we want to redirect back to signup page so user can try again
-#         return redirect(url_for('auth.signup'))
-
-#     # create new user with the form data. Hash the password so plaintext version isn't saved.
-
-#     # add the new user to the database
-#     # print(new_user)
-#     db.session.add(new_user)
-#     db.session.commit()
-#     db.session.add(new_customer)
-#     db.session.commit()
-
-
-#     return redirect(url_for('auth.login'))
+@auth.route('/logout')
+@login_required
+def logout():
+    logout_user()
+    return redirect(url_for('main.index'))
 
 
 @auth.route('/signupCustomer')
@@ -146,6 +134,3 @@ def signupGardener():
     return render_template('gardener_signup.html')
 
 
-@auth.route('/logout')
-def logout():
-    return 'Logout'
