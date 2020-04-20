@@ -18,6 +18,8 @@
 <h2 class="subtitle">
   Your destination for all gardening solutions.
 </h2>
+
+{% if current_user.is_authenticated == False%}
 <div id="container">
   <button type="button home-button" id="button1" ><a href="{{ url_for('auth.signupCustomer') }}" class="navbar-item">
     Sign Up Customer
@@ -27,6 +29,6 @@
 </a></button>
   <button type="button contact-button" id="button2"><a href="{{ url_for('auth.login') }}" class="navbar-item">
 Login</a></button>
-
+{% endif%}
 </div>
 {% endblock %}

@@ -29,12 +29,15 @@
                             </a>
                             {% if current_user.is_authenticated %}
                             <a href="{{ url_for('main.profile') }}" class="navbar-item">
-                                Profile
+                               {{current_user.Username}}
                             </a>
                             {% endif %}
                             {% if current_user.is_authenticated %}
                             <a href="{{ url_for('main.shop') }}" class="navbar-item">
                                 Shop
+                            </a>
+                            <a href="{{ url_for('main.post_product') }}" class="navbar-item">
+                                Add Product
                             </a>
                             {% endif %}
                             {% if not current_user.is_authenticated %}

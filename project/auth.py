@@ -3,7 +3,7 @@ from werkzeug.security import generate_password_hash, check_password_hash
 from .models import Users
 from .models import Customer,Gardener
 from flask_login import login_user, logout_user, login_required
-from . import db
+from . import db 
 import random
 auth = Blueprint('auth', __name__)
 
@@ -41,13 +41,13 @@ def signup_post():
     address = request.form.get('address')
     age = request.form.get('age')
     password = request.form.get('password')
-    cid="c"+str(random.randint(1,100))
+    cid="C"+str(random.randint(1,100))
     k=Customer.query.order_by(Customer.CustomerID).all()
     next_cid=[]
     for i in k:
-        next_cid.append(int(str(i.CustomerID).replace('c','')))
+        next_cid.append(int(str(i.CustomerID).replace('C','')))
     next_cid.sort()
-    my_id="c"+str(next_cid[-1]+1)
+    my_id="C"+str(next_cid[-1]+1)
     print(my_id)
 
     new_customer=Customer(CustomerID=my_id,First_Name=firstName,Last_Name=lastName,Phone_Number=phonenumber,EmailID=email,Locality=locality,Address=address,Age=age)

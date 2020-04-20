@@ -33,3 +33,15 @@ class Gardener(UserMixin, db.Model):
     Price_Range = db.Column(db.String(200)) 
     Date_of_joining = db.Column(db.String(200))
     Identification = db.Column(db.String(200))
+
+
+class Product(UserMixin, db.Model):
+    ProductID = db.Column(db.String(200), primary_key=True)
+    Type = db.Column(db.String(200))
+    Description = db.Column(db.String(200))
+    Price = db.Column(db.String(200))
+    Available = db.Column(db.String(200))
+    Rating = db.Column(db.String(200))
+    UserID = db.Column(db.String(200))
+    TypeID = db.Column(db.String(200))
+   
