@@ -1,0 +1,21 @@
+SoilID,Mineral_Details,Type,Fertiliser
+S1,Calcium,Silty,Muriate of Potash
+S10,Potassium,Silty,Sodium nitrate
+S11,Calcium,Chalky,Triple superphosphate
+S12,Magnesium,Silty,Ammonium phosphate
+S13,Sulphur,Sandy,Potassium sulphate
+S14,Potassium,Loamy,Triple superphosphate
+S15,Nitrogen,Silty,Sodium nitrate
+S16,Nitrogen,Loamy,Sodium nitrate
+S17,Magnesium,Peaty,Triple superphosphate
+S18,Nitrogen,Peaty,Sodium nitrate
+S19,Potassium,Loamy,Potassium sulphate
+S2,Sodium,Peaty,Ammonium phosphate
+S20,Sodium,Loamy,Triple superphosphate
+S3,Sodium,Peaty,Muriate of Potash
+S4,Nitrogen,Peaty,Ammonuim sulphate
+S5,Nitrogen,Chalky,Triple superphosphate
+S6,Magnesium,Silty,Calcium superphosphate
+S7,Iron,Sandy,Ammonium phosphate
+S8,Magnesium,Peaty,Sodium nitrate
+S9,Phosphorus,Peaty,Calsium nitrate

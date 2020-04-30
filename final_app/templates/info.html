@@ -1,0 +1,212 @@
+<style type="text/css">
+    .divLeft {
+        width:100px;
+        display: block;
+        float: left;
+        margin-left:7px;
+        margin-right:7px;
+
+        margin-bottom:10px;
+
+    }
+    .divRight {
+        width:100px;
+        display: block;
+        float: right;
+        margin-bottom:10px;
+    }
+
+    .dropdown{
+        vertical-align:left
+        float:left
+        background-color: #009879;
+        border-collapse: collapse;
+        margin:10px;
+        font-size: 1em;
+        font-weight: bold;
+        min-width: 100px;
+        min-height: 12px;
+        border-radius: 8px 8px 8px 8px;
+        overflow: hidden;
+        opacity:0.6;
+    }
+
+    .content-table {
+        border-collapse: collapse;
+        margin: 0 auto;
+        font-size: 0.9em;
+        min-width: 400px;
+        border-radius: 5px 5px 0 0;
+        overflow: hidden;
+        box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+    }
+
+    .content-table thead tr {
+        background-color: #dddddd;
+        color: #1a1616;
+        text-align: left;
+        font-weight: bold;
+    }
+
+    .content-table th,
+    .content-table td {
+        padding: 12px 15px;
+    }
+
+    .content-table tbody tr {
+        border-bottom: 1px solid #dddddd;
+    }
+
+    .content-table tbody tr:nth-of-type(even) {
+        background-color: #f3f3f3;
+    }
+
+    .content-table tbody tr:last-of-type {
+        border-bottom: 2px solid #009879;
+    }
+
+    .specialityDiv{
+        float:left;
+        border: 2px transparent;
+        position: absolute;
+        top:5px;
+        left:0px;
+
+    }
+
+    .header{
+        font-size:1.3em;
+        font-weight: bold;
+    }
+
+    .ApplyButton{
+        background-color: lightskyblue;
+        color: rgba(0, 0, 0, 0);
+        border-radius: 5px 5px 5px 5px;
+        float:middle;
+        opacity:0.7;
+        overflow:hidden;
+    }
+    .search{
+        font-size:1em;
+        float:left;
+        border-collapse: collapse;
+        border-radius: 10px 10px 10px 10px;
+        opacity:0.4;
+        font-weight:bold;
+        position:absolute;
+        margin: 2px 0 10px 40px;
+        down:2px;
+    }
+    </style>
+
+{% extends "base.html" %}
+
+{% block content %}
+    <h3 class="title">Seeds</h3>
+        <!-- <div class="table-container"> -->
+        <table class="content-table    ">
+            <thead>
+            <tr>
+              <th>S.No.</th><!--no index-->
+              <th>SeedID</th><!--0-->
+              <th>Name</th><!--2-->
+              <th>Irrigation_Requirements</th>
+              
+            </tr>
+            </thead>
+            <tbody>
+            {%for i in range(0, rlen1)%}
+            <tr>
+                <td>{{i+1}}</td>
+                <td>{{data1[i][0]}}</td>
+                <td>{{data1[i][1]}}</td>
+                <td>{{data1[i][2]}}</td>
+                
+            </tr>
+            {%endfor%}
+            </tbody>
+
+        </table>
+        <h3 class="title">Plants</h3>
+        <!-- <div class="table-container"> -->
+        <table class="content-table    ">
+            <thead>
+            <tr>
+              <th>S.No.</th><!--no index-->
+              <th>PlantID</th><!--0-->
+              <th>Name</th><!--2-->
+              <th>Irrigation_Requirements</th>
+              
+            </tr>
+            </thead>
+            <tbody>
+            {%for i in range(0, rlen2)%}
+            <tr>
+                <td>{{i+1}}</td>
+                <td>{{data2[i][0]}}</td>
+                <td>{{data2[i][1]}}</td>
+                <td>{{data2[i][2]}}</td>
+                
+            </tr>
+            {%endfor%}
+            </tbody>
+
+        </table>
+        <h3 class="title">Tools</h3>
+        <!-- <div class="table-container"> -->
+        <table class="content-table    ">
+            <thead>
+            <tr>
+              <th>S.No.</th><!--no index-->
+              <th>ToolID</th><!--0-->
+              <th>Name</th><!--2-->
+              <th>Description</th>
+              
+            </tr>
+            </thead>
+            <tbody>
+            {%for i in range(0, rlen3)%}
+            <tr>
+                <td>{{i+1}}</td>
+                <td>{{data3[i][0]}}</td>
+                <td>{{data3[i][1]}}</td>
+                <td>{{data3[i][2]}}</td>
+                
+            </tr>
+            {%endfor%}
+            </tbody>
+
+        </table>
+        <h3 class="title">Soil</h3>
+        <!-- <div class="table-container"> -->
+        <table class="content-table    ">
+            <thead>
+            <tr>
+              <th>S.No.</th><!--no index-->
+              <th>SoilID</th><!--0-->
+              <th>Minerals</th><!--2-->
+              <th>Type</th>
+              
+            </tr>
+            </thead>
+            <tbody>
+            {%for i in range(0, rlen4)%}
+            <tr>
+                <td>{{i+1}}</td>
+                <td>{{data4[i][0]}}</td>
+                <td>{{data4[i][1]}}</td>
+                <td>{{data4[i][2]}}</td>
+                
+            </tr>
+            {%endfor%}
+            </tbody>
+
+        </table>
+    <!-- </div> -->
+        
+{% endblock %}
+
+
+
+

@@ -1,0 +1,160 @@
+
+
+
+<style type="text/css">
+    .divLeft {
+        width:100px;
+        display: block;
+        float: left;
+        margin-left:7px;
+        margin-right:7px;
+
+        margin-bottom:10px;
+
+    }
+    .divRight {
+        width:100px;
+        display: block;
+        float: right;
+        margin-bottom:10px;
+    }
+
+    .dropdown{
+        vertical-align:left
+        float:left
+        background-color: #009879;
+        border-collapse: collapse;
+        margin:10px;
+        font-size: 1em;
+        font-weight: bold;
+        min-width: 100px;
+        min-height: 12px;
+        border-radius: 8px 8px 8px 8px;
+        overflow: hidden;
+        opacity:0.6;
+    }
+
+    .content-table {
+        border-collapse: collapse;
+        margin: 0 auto;
+        font-size: 0.9em;
+        min-width: 400px;
+        border-radius: 5px 5px 0 0;
+        overflow: hidden;
+        box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+    }
+
+    .content-table thead tr {
+        background-color: #dddddd;
+        color: #1a1616;
+        text-align: left;
+        font-weight: bold;
+    }
+
+    .content-table th,
+    .content-table td {
+        padding: 12px 15px;
+    }
+
+    .content-table tbody tr {
+        border-bottom: 1px solid #dddddd;
+    }
+
+    .content-table tbody tr:nth-of-type(even) {
+        background-color: #f3f3f3;
+    }
+
+    .content-table tbody tr:last-of-type {
+        border-bottom: 2px solid #009879;
+    }
+
+    .specialityDiv{
+        float:left;
+        border: 2px transparent;
+        position: absolute;
+        top:5px;
+        left:0px;
+
+    }
+
+    .header{
+        font-size:1.3em;
+        font-weight: bold;
+    }
+
+    .ApplyButton{
+        background-color: lightskyblue;
+        color: rgba(0, 0, 0, 0);
+        border-radius: 5px 5px 5px 5px;
+        float:middle;
+        opacity:0.7;
+        overflow:hidden;
+    }
+    .search{
+        font-size:1em;
+        float:left;
+        border-collapse: collapse;
+        border-radius: 10px 10px 10px 10px;
+        opacity:0.4;
+        font-weight:bold;
+        position:absolute;
+        margin: 2px 0 10px 40px;
+        down:2px;
+    }
+    </style>
+
+{% extends "base.html" %}
+
+{% block content %}
+<form method="POST" action="/ServiceRequest">
+                            <div class="specialityDiv">
+                                <h1 class="header">Search By Job Type</h1>
+                                <select name="JobType" class="dropdown">
+                                    <option value="Planting">Planting</option>
+                                    <option value="Watering">Watering</option>
+                                    <option value="Weeds">Weeds</option>
+                                    <option value="Digging">Digging</option>
+                                    <option value="Maintenance">Maintenance</option>
+                                    <option value="Harvesting">Harvesting</option>
+                                    <option value="Pest Removal">Pest Removal</option>
+                                </select>
+                                <br>
+                                <input type="submit" class="search" name="job" placeholder="APPLY"
+                                       value="Search">
+                            </div>
+                        </form>
+    <h3 class="title">Service Requests</h3>
+    <form method="POST" action="/ServiceRequest">
+        <table class="content-table">
+            <thead>
+            <tr>
+              <th>S.No.</th><!--no index-->
+              <th>Price</th><!--0-->
+              <th>Job_type</th><!--2-->
+              <th>Date</th>
+              <th>Description</th>
+              <th>Apply</th>
+            </tr>
+            </thead>
+            <tbody>
+            {%for i in range(0, rlen)%}
+            <tr>
+                <td>{{i}}</td>
+                <td>{{data[i][1]}}</td>
+                <td>{{data[i][2]}}</td>
+                <td>{{data[i][3]}}</td>
+                <td>{{data[i][4]}}</td>
+                <td><input type="submit" class="ApplyButton" name="apply" placeholder="APPLY"
+                           value="{{data[i][0]}}"></td>
+            </tr>
+            {%endfor%}
+            </tbody>
+
+        </table>
+    </form>
+        
+{% endblock %}
+
+
+
+

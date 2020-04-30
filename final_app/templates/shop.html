@@ -1,0 +1,69 @@
+{% extends "base.html" %}
+
+{% block content %}
+
+<style type="text/css">
+    .divLeft {
+        width:100px;
+        display: block;
+        float: left;
+        margin-left:7px;
+        margin-right:7px;
+
+        margin-bottom:10px;
+
+    }
+    .divRight {
+        width:100px;
+        display: block;
+        float: right;
+        margin-bottom:10px;
+    }
+    
+    </style>
+            <form method="POST" action="/shop">
+              <h3 class="title">SHOP</h3>
+
+    <div class="columns   is-multiline is-centered is-vcentered">
+   
+        {%for i in range(0, plen)%} 
+        
+        <div class="column is-one-quarter">
+
+
+            <div class="card ">
+                <div class="card-image">
+                  <figure class="image image is-64x128">
+                    <button   name="product" type="submit" value={{ids[i]}}>
+
+                    <img src="../static/img/bg-img/{{(i+1)%42}}.jpg" alt="Placeholder image">
+                    </button>
+                  </figure>
+                </div>
+                <div class="card-content">
+                  <div class="media">
+                  
+                    
+                  </div>
+              
+                  <div class="content">
+                    Price: {{price[i]}}<br>
+                    Types: {{types[i]}}<br>
+                    Type ID: {{typeID[i]}}<br>
+                    <!-- <br> -->
+                    <!-- <time datetime="2016-1-1">11:09 PM - 1 Jan 2016</time> -->
+                  </div>
+                </div>
+              </div>
+
+            
+    <!-- </p> -->
+  </div>
+      
+        <!-- Single Product Area -->
+        
+        {%endfor%}  
+    </div>
+    </form>
+
+{% endblock %}

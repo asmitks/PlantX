@@ -1,0 +1,147 @@
+ServiceRequestID,Price,Date,Job_Type,Description,CustomerID
+R10,350,2020-04-27,Watering,Aut quaerat neque assumenda iure et repellat.,C51
+R100,290,2020-03-19,Weeds,Voluptas consequatur eveniet possimus enim ullam.,C46
+R101,250,2020-04-11,Watering,Similique veniam neque.,C54
+R102,160,2020-02-26,Watering,Temporibus eaque quas minus temporibus.,C31
+R103,120,2020-02-27,Digging,Doloremque ipsa officia sunt consectetur vel dicta.,C51
+R104,1540,2020-03-10,Maintenance,Quos voluptates soluta dolorum.,C85
+R105,1880,2020-04-14,Digging,Tenetur minima magni iste enim natus.,C70
+R106,1520,2020-01-12,Maintenance,Dicta consequuntur reprehenderit explicabo aspernatur deleniti.,C94
+R107,140,2020-04-17,Watering,Sint reiciendis occaecati adipisci.,C98
+R108,360,2020-03-24,Pest Removal,Vitae quo dicta ipsam minima.,C157
+R109,1270,2020-02-14,Weeds,Fugiat cum maxime tempora sit modi quisquam quis.,C29
+R11,630,2020-04-22,Harvesting,Maiores architecto eum nulla harum qui nihil.,C179
+R110,110,2020-03-22,Weeds,Doloremque aliquam nisi dolorum nesciunt.,C4
+R111,1200,2020-04-10,Weeds,Magni debitis necessitatibus molestiae doloremque velit ex.,C78
+R112,1870,2020-04-22,Planting,Aliquid non voluptate dignissimos placeat quo animi beatae.,C192
+R113,980,2020-03-23,Planting,Eligendi veritatis aliquid quaerat doloremque.,C81
+R114,1580,2020-03-18,Planting,Necessitatibus alias expedita corrupti praesentium.,C23
+R115,830,2020-02-17,Harvesting,Tenetur quasi sint maiores.,C9
+R116,420,2020-04-26,Weeds,Cumque sequi magnam illo non adipisci.,C197
+R117,1140,2020-04-12,Digging,Magnam deleniti amet excepturi debitis error.,C52
+R118,840,2020-01-10,Watering,Odit est omnis tempore atque esse.,C24
+R119,1080,2020-01-16,Harvesting,Cum magni odit porro harum.,C5
+R12,300,2020-03-18,Watering,Libero ipsa at dolorum quos ab odit.,C175
+R120,1940,2020-01-12,Harvesting,Molestias fugiat necessitatibus culpa possimus.,C101
+R121,520,2020-02-19,Watering,Natus voluptatum odit magni maiores officiis.,C20
+R122,1400,2020-03-25,Watering,Sint adipisci omnis repellendus cupiditate.,C165
+R123,170,2020-02-21,Harvesting,Debitis illum vel ipsam ratione beatae veniam praesentium.,C26
+R124,920,2020-02-26,Weeds,Doloribus repudiandae quibusdam porro libero eum dignissimos.,C4
+R125,1400,2020-01-28,Maintenance,Reprehenderit saepe labore ab.,C112
+R126,1840,2020-02-25,Maintenance,Deleniti sunt quasi odit.,C73
+R127,640,2020-02-13,Harvesting,Dolor sint tempore ad a.,C103
+R128,1660,2020-03-19,Planting,Corrupti doloremque hic.,C128
+R129,1620,2020-03-17,Pest Removal,Earum quam fuga voluptatum itaque impedit dolor.,C24
+R13,340,2020-02-10,Harvesting,Dolorem ut reiciendis inventore nemo cupiditate.,C93
+R130,280,2020-01-24,Watering,Impedit iusto exercitationem totam aliquid.,C199
+R131,650,2020-04-16,Weeds,Eum ullam nostrum ipsa.,C48
+R132,950,2020-03-28,Weeds,Enim fuga quis deserunt maiores.,C179
+R133,720,2020-01-14,Planting,Earum tenetur vero.,C90
+R134,1670,2020-03-14,Pest Removal,Voluptatibus nesciunt voluptates sed ratione ex.,C198
+R135,120,2020-01-28,Pest Removal,Porro commodi ut exercitationem ducimus voluptates tempore.,C125
+R136,1960,2020-03-17,Watering,Enim sit repellat occaecati minima.,C156
+R137,370,2020-04-28,Planting,Hic voluptates odio possimus dolore recusandae quaerat quia.,C3
+R138,700,2020-02-12,Maintenance,Ullam quibusdam dignissimos molestias.,C125
+R139,910,2020-01-18,Weeds,Autem autem dignissimos repellendus doloribus veniam aperiam.,C22
+R14,620,2020-01-10,Planting,Aliquam enim quia eveniet voluptatum.,C81
+R140,440,2020-01-16,Planting,Minima vel quae perspiciatis quibusdam rerum commodi illo.,C8
+R141,1940,2020-02-24,Pest Removal,Soluta similique tenetur aspernatur reiciendis hic aliquid iste.,C53
+R142,1760,2020-02-14,Maintenance,Alias fugiat ipsa quas.,C130
+R143,1440,2020-01-12,Pest Removal,Sed tempore ex fugiat mollitia dolores unde laboriosam.,C150
+R144,1770,2020-01-17,Pest Removal,Eveniet nisi voluptatibus repellendus possimus.,C54
+R145,1650,2020-01-28,Digging,At quibusdam non reprehenderit fugit quia cumque quod.,C61
+R146,1960,2020-02-27,Pest Removal,Minima provident vitae facilis sed ex.,C82
+R147,1170,2020-01-28,Watering,At unde non perferendis.,C11
+R148,270,2020-03-20,Planting,Ipsam ad voluptate commodi aliquid officiis repellat tempore.,C179
+R149,1280,2020-02-19,Maintenance,Id harum sapiente dolor numquam eos voluptas.,C182
+R15,1140,2020-04-17,Maintenance,Cum ipsum perferendis vel necessitatibus vitae fuga dolores.,C37
+R150,830,2020-02-16,Watering,Maxime unde aut quibusdam.,C44
+R151,100,2020-04-19,Watering,Watering,C12
+R16,470,2020-02-21,Pest Removal,Consequuntur sequi similique veniam cumque esse adipisci.,C38
+R17,1160,2020-03-27,Weeds,Nam accusamus provident earum sit libero veniam.,C81
+R19,600,2020-01-26,Weeds,Dolorum sit hic qui.,C112
+R20,1790,2020-02-25,Pest Removal,Modi pariatur occaecati porro architecto vel.,C116
+R21,1560,2020-02-21,Planting,In quo doloremque illo sunt.,C176
+R22,640,2020-01-26,Maintenance,Provident eveniet labore maiores ratione.,C5
+R23,1600,2020-02-21,Planting,Exercitationem numquam neque expedita voluptate a.,C108
+R24,230,2020-04-20,Maintenance,Laborum amet consequuntur.,C132
+R25,410,2020-04-27,Watering,Voluptates ab excepturi expedita.,C178
+R26,590,2020-03-18,Pest Removal,Quis vel velit quaerat recusandae deserunt.,C132
+R27,1690,2020-04-28,Digging,Esse ipsam cupiditate quo ratione quia.,C29
+R28,120,2020-03-20,Watering,Debitis at architecto nihil quae temporibus quas.,C65
+R29,1430,2020-01-10,Maintenance,Non quod quidem est.,C100
+R30,1490,2020-04-28,Maintenance,Laudantium aspernatur officiis vel tempore.,C76
+R31,1760,2020-01-27,Watering,Maiores voluptate neque esse nemo ut similique.,C41
+R32,1900,2020-04-24,Pest Removal,Suscipit officiis esse consequatur fugiat atque.,C144
+R33,1030,2020-04-12,Weeds,Ipsum tempora fuga consequuntur minima.,C144
+R34,360,2020-01-26,Maintenance,Deserunt commodi quisquam libero.,C35
+R35,150,2020-01-25,Weeds,Optio hic doloremque inventore ut quam.,C85
+R36,850,2020-03-23,Digging,Nihil harum natus eveniet repudiandae reiciendis officia.,C112
+R37,1560,2020-01-21,Weeds,Nam odio nostrum impedit amet.,C172
+R38,750,2020-04-25,Weeds,Itaque voluptatum earum delectus.,C18
+R39,320,2020-04-16,Pest Removal,Ad eveniet maiores aspernatur sit.,C22
+R40,460,2020-04-15,Weeds,Ipsa culpa ipsa esse.,C115
+R41,960,2020-03-15,Harvesting,Vitae consequuntur nihil error autem impedit natus voluptate.,C25
+R42,1530,2020-02-12,Maintenance,Praesentium libero blanditiis vitae aperiam quis atque amet.,C129
+R43,1180,2020-02-23,Maintenance,Minus maxime nam.,C70
+R44,400,2020-04-28,Weeds,Quae quod quisquam.,C196
+R45,420,2020-02-17,Weeds,Dolorum officiis beatae reprehenderit voluptatibus eius voluptatibus pariatur.,C155
+R46,1820,2020-02-28,Pest Removal,Earum temporibus in necessitatibus.,C61
+R47,250,2020-01-16,Pest Removal,Enim laborum iusto velit.,C107
+R48,1550,2020-03-26,Digging,Accusamus voluptatem aspernatur asperiores eos facilis.,C168
+R49,540,2020-02-19,Planting,Dolores aspernatur distinctio fugiat iste numquam.,C17
+R5,1220,2020-04-25,Pest Removal,Atque omnis tempore mollitia culpa quae similique.,C54
+R50,1790,2020-03-20,Pest Removal,At deserunt dignissimos quos officiis harum.,C8
+R51,1200,2020-03-28,Weeds,Eligendi mollitia natus quibusdam sed.,C56
+R52,1300,2020-02-27,Digging,Earum hic ab numquam.,C6
+R53,1390,2020-03-28,Harvesting,Quia voluptate quo animi dolore mollitia fugiat.,C197
+R54,1230,2020-03-28,Watering,Quibusdam eos nihil mollitia ipsam doloremque.,C122
+R55,1590,2020-03-26,Harvesting,Molestiae libero iure velit.,C195
+R56,270,2020-03-23,Maintenance,Similique maiores rerum ad aut.,C199
+R57,1750,2020-02-26,Watering,Aut incidunt qui neque.,C113
+R58,1340,2020-01-18,Pest Removal,Laborum saepe explicabo quo nostrum adipisci cupiditate.,C196
+R59,1160,2020-01-27,Watering,Doloremque ad tenetur sequi ut similique.,C160
+R6,1810,2020-03-15,Pest Removal,Voluptas culpa accusantium quasi.,C114
+R60,920,2020-04-11,Digging,Esse fuga hic dolorem molestiae iste.,C88
+R61,1050,2020-03-20,Pest Removal,Illo minus ea quisquam quod.,C166
+R62,1410,2020-04-24,Harvesting,Molestiae nesciunt eius voluptatibus distinctio voluptates voluptates.,C162
+R63,920,2020-01-25,Weeds,Eos a quibusdam vitae.,C22
+R64,520,2020-02-24,Planting,Ipsam natus odio consectetur aspernatur.,C166
+R65,910,2020-03-18,Pest Removal,Delectus maxime sequi praesentium ullam in dolorum.,C34
+R66,1640,2020-01-10,Pest Removal,Earum nostrum eum porro non error beatae.,C40
+R67,1900,2020-01-25,Maintenance,Eaque eos perspiciatis facere.,C142
+R68,110,2020-04-27,Weeds,Accusamus ipsum numquam nemo accusantium amet libero.,C14
+R69,1770,2020-01-13,Maintenance,Doloribus error dolorum vel.,C119
+R7,1670,2020-02-23,Planting,Praesentium saepe magnam qui saepe fugit ut.,C139
+R70,260,2020-03-22,Watering,Deleniti quam praesentium nulla vitae magnam.,C62
+R71,350,2020-02-12,Maintenance,Labore vero nobis animi officia possimus.,C43
+R72,1650,2020-02-12,Maintenance,At incidunt consequuntur quam eum praesentium.,C13
+R73,600,2020-03-21,Weeds,Optio molestias eius officia.,C192
+R74,500,2020-04-17,Pest Removal,Doloremque commodi placeat deleniti animi optio.,C144
+R75,190,2020-01-18,Maintenance,Doloremque tempore necessitatibus perferendis vel.,C17
+R76,1930,2020-02-21,Watering,Totam maxime modi repellendus nihil.,C139
+R77,1010,2020-02-25,Weeds,Beatae magnam iste rem ipsum eum.,C94
+R78,1320,2020-04-24,Planting,Blanditiis eius maxime reprehenderit.,C66
+R79,940,2020-01-18,Harvesting,Voluptate sed similique nesciunt.,C92
+R8,450,2020-01-22,Harvesting,Expedita deleniti odit eum dicta dolores.,C154
+R80,750,2020-01-21,Pest Removal,Ad nemo fugit.,C12
+R81,980,2020-02-17,Maintenance,Corporis pariatur numquam nisi rerum.,C69
+R82,1540,2020-01-16,Watering,Incidunt deleniti mollitia minus eaque accusantium.,C144
+R83,630,2020-02-19,Weeds,Harum recusandae blanditiis cupiditate odio debitis.,C164
+R84,1830,2020-03-20,Planting,Velit veritatis et.,C92
+R85,560,2020-02-26,Harvesting,Quis omnis officiis numquam pariatur distinctio quod.,C30
+R86,330,2020-02-21,Maintenance,Aliquid aut provident reprehenderit quis et.,C137
+R87,1750,2020-01-14,Digging,Aperiam debitis sequi debitis laboriosam ut.,C143
+R88,100,2020-03-18,Harvesting,Optio inventore quibusdam delectus illo cumque.,C93
+R89,1500,2020-02-22,Pest Removal,Voluptatibus nulla alias aut praesentium maiores maiores.,C140
+R9,1760,2020-03-10,Maintenance,Recusandae hic ipsam vitae.,C189
+R90,350,2020-02-28,Weeds,Voluptatem laboriosam eveniet voluptates ut placeat.,C165
+R91,410,2020-01-10,Weeds,Qui ducimus ad.,C56
+R92,520,2020-03-15,Weeds,Dicta molestiae quo dicta labore cupiditate.,C71
+R93,1740,2020-01-16,Watering,Maiores aut provident accusantium minima quibusdam cumque facere.,C16
+R94,1810,2020-01-17,Pest Removal,Perspiciatis quia officia ipsam vitae minus.,C57
+R95,1130,2020-03-24,Weeds,Quibusdam exercitationem facere explicabo.,C20
+R96,730,2020-03-26,Watering,Ullam aperiam temporibus cum.,C137
+R97,1790,2020-03-20,Harvesting,Libero quibusdam minima maxime placeat tenetur.,C163
+R98,880,2020-03-10,Harvesting,Iste tempora exercitationem deserunt rerum saepe.,C79
+R99,1030,2020-03-28,Planting,Voluptas temporibus recusandae laudantium distinctio.,C60

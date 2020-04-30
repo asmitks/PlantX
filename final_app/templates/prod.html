@@ -1,0 +1,208 @@
+{% extends "base.html" %}
+
+{% block content %}
+
+
+<style>
+.quantity {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0;
+}
+.quantity__minus,
+.quantity__plus {
+  display: block;
+  width: 22px;
+  height: 23px;
+  margin: 0;
+  background: #dee0ee;
+  text-decoration: none;
+  text-align: center;
+  line-height: 23px;
+}
+.quantity__minus:hover,
+.quantity__plus:hover {
+  background: #575b71;
+  color: #fff;
+} 
+.quantity__minus {
+  border-radius: 3px 0 0 3px;
+}
+.quantity__plus {
+  border-radius: 0 3px 3px 0;
+}
+.quantity__input {
+  width: 32px;
+  height: 19px;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  border-top: 2px solid #dee0ee;
+  border-bottom: 2px solid #dee0ee;
+  border-left: 1px solid #dee0ee;
+  border-right: 2px solid #dee0ee;
+  background: #fff;
+  color: #8184a1;
+}
+.quantity__minus:link,
+.quantity__plus:link {
+  color: #8184a1;
+} 
+.quantity__minus:visited,
+.quantity__plus:visited {
+  color: #fff;
+}</style>
+<form method="POST" action="/prod">
+            <!-- <div class="card">
+                <div class="card-image">
+                  <figure class="image image is-64x128">
+                    <button   name="product" type="submit" value={{ids[i]}}>
+
+                    <img src="../static/img/bg-img/33.jpg" alt="Placeholder image">
+                    </button>
+                  </figure>
+                </div>
+                <div class="card-content">
+                  <div class="media">
+                  
+                    
+                  </div>
+              
+                  <div class="content">
+                    Price: 
+                  </div>
+                  <div class="number">
+                    <span class="minus">-</span>
+                    <input type="text" value="1"/>
+                    <span class="plus">+</span>
+                </div>
+                </div>
+              </div> -->
+
+              <article class="media">
+                <figure class="media-left">
+                  <p class="image is-128x128">
+                    <img src="../static/img/bg-img/11.jpg">
+                  </p>
+                </figure>
+                <div class="media-content">
+                  <div class="content">
+                    <p>
+                      <strong>{{types[0]}}</strong> 
+                      <br>
+                      {{description[0]}}  
+                      <br>
+                      {{info[0]}}
+                      <br>
+                      <strong>Price:</strong> {{price[0]}}
+                    </p>
+                  </div>
+                  
+
+                  <nav class="level is-mobile">
+                    <div class="level-left">
+                      <a class="level-item">
+                        <span class="icon is-small"><i class="fas fa-reply"></i></span>
+                      </a>
+                      <a class="level-item">
+                        <span class="icon is-small"><i class="fas fa-retweet"></i></span>
+                      </a>
+                      <a class="level-item">
+                        <span class="icon is-small"><i class="fas fa-heart"></i></span>
+                      </a>
+                    </div>
+                  </nav>
+                </div>
+                <div class="media-right">
+                  <!-- <div class="quantity">
+                    <a href="#" class="quantity__minus"><span>-</span></a>
+                    <input name="quantity" type="text" class="quantity__input" value="1">
+                    <a href="#" class="quantity__plus"><span>+</span></a>
+                  </div> -->
+                  <a>Enter product rating</a>
+                  <input class="input is-small"  list="rating" type="text" name="rating" placeholder="Rate this product" >
+                  <datalist id="rating">
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5">5</option>
+                </datalist>
+                <br>
+                <br>
+
+                 
+                  <button class="button is-link is-light" type="submit">BUY !!</button>
+                </div>
+                 
+              </article>
+              <article class="media">
+                <div class="media-content">
+                  <div class="content">
+                    <p>
+                      <strong>Reviews</strong> 
+
+                      {%for i in range(0, 3)%} 
+                <br>
+          
+          
+                <div class="content">
+                  {{reviews[i][0]}}, <strong>Rating: </strong>{{reviews[i][1]}}
+                  <!-- <br> -->
+                  <!-- <time datetime="2016-1-1">11:09 PM - 1 Jan 2016</time> -->
+                </div>
+
+          
+  <!-- </p> -->
+    
+      <!-- Single Product Area -->
+      
+      {%endfor%}  
+                    </p>
+                  </div>
+                  
+
+                  <nav class="level is-mobile">
+                    <div class="level-left">
+                      <a class="level-item">
+                        <span class="icon is-small"><i class="fas fa-reply"></i></span>
+                      </a>
+                      <a class="level-item">  
+                        <span class="icon is-small"><i class="fas fa-retweet"></i></span>
+                      </a>
+                      <a class="level-item">
+                        <span class="icon is-small"><i class="fas fa-heart"></i></span>
+                      </a>
+                    </div>
+                  </nav>
+                </div>
+              
+              </article>
+            
+              
+            </form>
+            <script>
+              $(document).ready(function() {
+                const minus = $('.quantity__minus');
+                const plus = $('.quantity__plus');
+                const input = $('.quantity__input');
+                minus.click(function(e) {
+                  e.preventDefault();
+                  var value = input.val();
+                  if (value > 1) {
+                    value--;
+                  }
+                  input.val(value);
+                });
+                
+                plus.click(function(e) {
+                  e.preventDefault();
+                  var value = input.val();
+                  value++;
+                  input.val(value);
+                })
+              });</script>
+              
+              
+        {% endblock %}

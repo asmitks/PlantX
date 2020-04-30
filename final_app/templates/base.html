@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>PlantX</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.7.2/css/bulma.min.css" />
+    <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.8.2/css/bulma.min.css"> -->
+    <!-- <script type="text/javascript" src="../static/js/particles.js"> -->
+        <!-- // particles("../static/js/particles.js"; -->
+       <!-- </script> -->
+        <script type="text/javascript" src="../static/js/particles.js-master/particles.js"></script>
+        <!-- <title>Particles.js Demo</title> -->
+</head>
+<style>
+    /* div { */
+      /* background-image: url('../static/img/bg-img/2.jpg'); */
+    /* } */
+    </style>
+<body id="particles-js">
+    
+    <section class="hero is-primary is-fullheight" >
+
+        <div class="hero-head" id="particles-js">
+            <nav class="navbar">
+                <div class="container" aria-label="main navigation">
+
+                    <div id="navbarMenuHeroA" class="navbar-menu" >
+                        <div class="navbar-end">
+                            <a href="{{ url_for('main.index') }}" class="navbar-item">
+                                Home
+                            </a>
+                            {% if current_user.is_authenticated %}
+                            <a href="{{ url_for('main.profile') }}" class="navbar-item">
+                               {{current_user.Username}}
+                            </a>
+                            {% endif %}
+                            {% if current_user.is_authenticated and 'C' in current_user.UserID%}
+                            <a href="{{ url_for('main.shop') }}" class="navbar-item">
+                                Shop
+                            </a>
+                            <a href="{{ url_for('main.post_product') }}" class="navbar-item">
+                                Add Product
+                            </a>
+                            {% endif %}
+                            {% if current_user.is_authenticated and 'N' in current_user.UserID%}
+                            <a href="{{ url_for('main.shop') }}" class="navbar-item">
+                                Shop
+                            </a>
+                            <a href="{{ url_for('main.post_product') }}" class="navbar-item">
+                                Add Product
+                            </a>
+                            <a href="{{ url_for('main.trending') }}" class="navbar-item">
+                                Trending
+                            </a>
+                            {% endif %}
+                            {% if not current_user.is_authenticated %}
+                            <a href="{{ url_for('auth.login') }}" class="navbar-item">
+                                Login
+                            </a>
+                            <a href="{{ url_for('auth.signupCustomer') }}" class="navbar-item">
+                                Sign Up Customer
+                            </a>
+                            <a href="{{ url_for('auth.signupGardener') }}" class="navbar-item">
+                                Sign Up Gardener
+                            </a>
+                            <a href="{{ url_for('auth.signupNursery') }}" class="navbar-item">
+                                Sign Up Nursery
+                            </a>
+                            {% endif %}
+                           
+                            {% if current_user.is_authenticated and 'C' in current_user.UserID%}
+                            <a href="{{ url_for('main.addServiceRequest') }}" class="navbar-item">
+                                Request Service
+                            </a>
+                            <a href="{{ url_for('main.information') }}" class="navbar-item">
+                                Info
+                            </a>
+                            <a href="{{ url_for('main.recommendations') }}" class="navbar-item">
+                                Recommendations
+                            </a>
+                            <a href="{{ url_for('main.requestproduct') }}" class="navbar-item">
+                                Request product
+                            </a>
+                            <a href="{{ url_for('main.prediction') }}" class="navbar-item">
+                                Seed Prices
+                            </a>
+				<a href="{{ url_for('main.orders') }}" class="navbar-item">Orders</a>
+                            {% endif %}
+                            {% if current_user.is_authenticated and 'C' in current_user.UserID%}
+                            <a href="{{ url_for('main.ServiceAssign') }}" class="navbar-item">
+                                Avail service
+                            </a>
+                            <a href="{{ url_for('main.trending') }}" class="navbar-item">
+                                Trending
+                            </a>
+                            {% endif %}
+
+                            {% if current_user.is_authenticated and 'G' in current_user.UserID%}
+                            <a href="{{ url_for('main.servicehistory') }}" class="navbar-item">
+                                Assigned Services
+                            </a>
+                            {% endif %}
+
+                            {% if current_user.is_authenticated and 'G' in current_user.UserID%}
+                            <a href="{{ url_for('main.serviceRequest') }}" class="navbar-item">
+                                Service Requests
+                            </a>
+                            {% endif %}
+                            {% if current_user.is_authenticated %}
+                            <a href="{{ url_for('auth.logout') }}" class="navbar-item">
+                                Logout
+                            </a>
+                            {% endif %}
+                        </div>
+                    </div>
+                </div>
+            </nav>
+        </div>
+
+        <div class="hero-body">
+            <div class="container has-text-centered">
+               {% block content %}
+               {% endblock %}
+            </div>
+        </div>
+    </section>
+    
+</body>
+
+</html>

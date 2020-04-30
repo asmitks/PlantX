@@ -1,0 +1,202 @@
+ProductID,Type,Description,Price,Available,Rating,UserID,TypeID
+I1,Plant,Voluptatum ipsa porro non architecto et.,20000,11,4.63,C160,P9
+I10,Seed,Similique cumque earum perferendis quibusdam in iusto.,14250,77,3.82,G38,E17
+I100,Tool,Accusantium quaerat quam commodi molestias saepe quia.,9550,45,1.63,N44,T6
+I101,Plant,Inventore incidunt est amet tempora omnis doloremque.,1800,8,2.3,C30,P23
+I102,Soil,Molestias animi dolores omnis.,11600,23,2.48,N31,S19
+I103,Plant,Temporibus doloribus adipisci maxime saepe iure.,16050,86,2.35,G142,P14
+I104,Soil,Libero ullam dolorem unde consectetur quam.,1900,0,4.35,C172,S12
+I105,Soil,Iste veritatis iste culpa animi aperiam possimus.,1500,32,2.22,C23,S15
+I106,Plant,Cumque magnam cupiditate corporis ipsam consectetur.,6700,2,2.75,G112,P5
+I107,Soil,Voluptatem earum repellat nisi.,22150,67,3.03,C120,S19
+I108,Seed,Sint voluptatum accusantium deleniti hic quod.,10750,3,1.98,G117,E24
+I109,Plant,Optio tenetur maxime totam assumenda delectus culpa.,15600,0,1.97,N36,P23
+I11,Plant,Modi quidem libero accusamus.,7450,73,2.95,G175,P11
+I110,Tool,Deserunt eum excepturi modi autem earum.,9000,30,3.5,G8,T5
+I111,Seed,Quo iste exercitationem repellendus.,9400,14,4.74,G144,E4
+I112,Plant,Ipsa doloremque est nulla expedita mollitia.,17800,4,2.77,N46,P20
+I113,Plant,Dolorum distinctio libero tenetur.,15900,51,1.84,G79,P8
+I114,Soil,Exercitationem minus deleniti impedit fuga doloremque.,650,8,3.83,C42,S3
+I115,Seed,Facilis deserunt delectus placeat blanditiis.,18750,2,2.1,G180,E27
+I116,Seed,Vitae rerum eum id.,14800,1,3.42,N33,E17
+I117,Tool,Nobis similique ipsam magnam assumenda corrupti tempore.,16800,9,4.5,G58,T19
+I118,Tool,Culpa velit asperiores quia architecto.,7850,39,2.06,G169,T3
+I119,Seed,Maxime dolorem tenetur doloribus nesciunt.,20450,6,3.43,G144,E28
+I12,Seed,Exercitationem neque tempora veritatis.,21950,29,4.23,G145,E30
+I120,Plant,Sed veritatis placeat esse.,950,7,2.38,N10,P10
+I121,Plant,Nesciunt distinctio adipisci asperiores neque adipisci.,20650,1,2.24,G3,P13
+I122,Plant,Libero inventore dolorem optio autem animi.,3600,1,3.95,N3,P13
+I123,Plant,Ratione ullam sunt soluta.,14050,62,1.75,C44,P30
+I124,Seed,Ab eaque dolorum praesentium in consequuntur cupiditate facere.,9650,6,1.85,G173,E29
+I125,Plant,Aliquid iure aliquam reprehenderit aut quae reiciendis.,350,65,3.05,N21,P1
+I126,Seed,In neque commodi a iure.,22900,57,3.17,G138,E15
+I127,Seed,Mollitia quae repudiandae quasi.,15950,0,3.03,C137,E25
+I128,Tool,Ex est similique deserunt suscipit magnam minima impedit.,400,22,2.59,C197,T20
+I129,Plant,Ullam velit voluptatum deleniti.,3300,40,1.86,N17,P26
+I13,Seed,Laudantium voluptatem perspiciatis.,2300,24,4.16,C133,E22
+I130,Seed,Nisi nesciunt voluptatibus molestias aperiam ab.,17200,0,3.81,N37,E27
+I131,Plant,Provident illo sit vitae tenetur.,8150,10,4.12,G192,P17
+I132,Seed,Sequi ab accusamus voluptatibus.,9800,7,3.61,C54,E20
+I133,Plant,Aliquam veritatis sint amet consectetur.,13950,1,4.61,C123,P6
+I134,Plant,Facilis quod voluptate tenetur enim delectus.,4500,13,2.71,C172,P21
+I135,Seed,Inventore et minus facere nesciunt distinctio fugiat.,11800,4,4.81,C33,E12
+I136,Seed,Deserunt consectetur doloremque architecto harum accusamus velit.,18000,38,4.59,N39,E3
+I137,Plant,Quae accusamus porro ipsa suscipit ratione.,5850,0,4.41,N21,P18
+I138,Seed,A impedit pariatur fugiat.,4250,91,2.46,N39,E21
+I139,Plant,Deserunt minus ipsum similique illo.,21700,9,3.74,C161,P24
+I14,Plant,Cupiditate maiores nobis.,21000,5,3.22,C1,P11
+I140,Plant,Libero ducimus et quis vitae quasi.,9350,11,2.12,N42,P16
+I141,Tool,Corporis impedit explicabo doloremque quo consequuntur quaerat deleniti.,4250,65,3.82,G132,T8
+I142,Seed,Alias consequuntur dolorum ad.,6550,56,2.14,N28,E20
+I143,Plant,Sequi libero neque sunt quis unde ut cupiditate.,16900,48,3.27,G40,P19
+I144,Tool,Officiis quo illum consequatur neque.,750,29,3.0,G59,T11
+I145,Seed,Sequi mollitia alias modi animi.,8050,11,4.26,G103,E19
+I146,Plant,Cumque corporis hic tempore fugit.,23600,66,2.38,G124,P22
+I147,Plant,Eum exercitationem vero soluta architecto vero eligendi.,5700,96,3.58,G26,P24
+I148,Plant,Perferendis corrupti error alias nisi omnis quo.,15500,5,3.23,C199,P12
+I149,Plant,Esse nemo rem minima ab quasi nihil illo.,13800,40,2.78,G17,P13
+I15,Soil,Facilis voluptatum nulla neque laboriosam minus.,20800,15,2.92,C20,S18
+I150,Soil,Dolores eligendi dignissimos voluptatibus porro recusandae.,14100,39,3.81,C131,S17
+I151,Plant,Nulla asperiores adipisci temporibus.,23400,76,1.5,N40,P21
+I152,Soil,Vero deleniti consequuntur molestias quia.,7500,69,3.38,G109,S13
+I153,Soil,Commodi laboriosam quo neque.,8250,83,2.96,N9,S10
+I154,Seed,Mollitia neque nihil vitae.,15750,49,3.59,C153,E15
+I155,Seed,Necessitatibus illo dignissimos perferendis officia repudiandae sint.,24950,36,1.57,N34,E26
+I156,Soil,Atque praesentium quidem sit.,2200,83,3.53,G9,S15
+I157,Seed,Exercitationem cumque alias dolores.,20050,92,4.62,N9,E13
+I158,Plant,Quos architecto amet veritatis.,15000,26,4.64,N7,P14
+I159,Seed,Expedita voluptatibus non officiis quo quo sit.,23300,72,4.5,N31,E8
+I16,Tool,Blanditiis molestiae perspiciatis laboriosam eos tenetur est.,17950,21,3.86,N46,T14
+I160,Seed,Ipsum qui provident ea quaerat hic doloribus magni.,5750,58,3.61,N4,E16
+I161,Soil,Animi sapiente officia facilis doloremque.,20750,46,2.75,C192,S13
+I162,Seed,Consectetur necessitatibus nemo quam voluptates.,9100,39,2.24,G128,E5
+I163,Plant,Deserunt reiciendis perferendis repellat porro quas hic.,17100,34,3.95,C67,P1
+I164,Soil,Consectetur eos eaque vel quidem iusto sapiente.,5500,78,4.21,C181,S6
+I165,Plant,Totam fugit molestiae distinctio ab.,8550,38,4.47,C107,P29
+I166,Seed,Nemo placeat exercitationem eum.,18600,35,3.68,G8,E17
+I167,Soil,Aliquam at culpa excepturi tenetur.,5900,60,4.84,G55,S5
+I168,Tool,Numquam officia nesciunt veritatis.,11100,9,2.52,C8,T15
+I169,Seed,Possimus adipisci atque aperiam tenetur commodi.,16250,54,2.06,N33,E25
+I17,Soil,Eos dolorem vitae quo quis ipsam.,10550,1,4.8,N40,S19
+I170,Soil,At commodi incidunt nesciunt.,19850,100,3.04,G17,S15
+I171,Plant,Atque autem autem iusto.,3850,38,3.23,G32,P16
+I172,Plant,Id ipsum eveniet culpa quasi.,23150,77,3.68,N23,P3
+I173,Seed,Minus qui minima.,12300,87,2.92,C167,E4
+I174,Soil,Sapiente dignissimos magnam culpa omnis consequuntur consectetur.,15800,72,3.48,N23,S5
+I175,Soil,Ipsum doloribus minima voluptate quisquam aliquam.,3250,59,2.9,G78,S8
+I176,Plant,Molestias odio repellendus eaque excepturi reiciendis.,21100,66,2.74,N36,P30
+I177,Seed,Ex enim voluptates deleniti molestias aut.,9500,71,3.19,G176,E30
+I178,Soil,Eius unde repellat impedit ex itaque quos.,20100,14,3.93,C162,S17
+I179,Seed,Repellat mollitia reiciendis officia neque perferendis eos.,3650,68,2.3,G90,E22
+I18,Plant,Repellat autem quidem quam.,15450,8,4.54,N24,P26
+I180,Seed,Incidunt rerum blanditiis ex.,18500,47,1.66,G78,E27
+I181,Plant,Ab molestiae cum amet a.,5600,99,2.93,N36,P2
+I182,Plant,Voluptates natus vel voluptatum voluptas soluta.,4200,30,1.74,G178,P15
+I183,Soil,Voluptatum eveniet quod eligendi inventore maiores.,11650,74,1.87,C12,S6
+I184,Tool,Quas soluta aliquid id incidunt.,1550,16,4.8,N41,T19
+I185,Plant,Voluptatibus magnam debitis error ex sit.,24650,35,2.56,G95,P29
+I186,Soil,Quia autem quae incidunt totam aperiam aliquid similique.,700,69,2.71,G48,S9
+I187,Seed,Ab libero explicabo quibusdam quaerat.,9550,28,3.16,C124,E4
+I188,Seed,Laboriosam porro occaecati consequuntur possimus recusandae ipsum totam.,13650,3,4.23,G110,E18
+I189,Plant,Eius autem harum eum nam dolor maiores.,6850,90,3.03,G16,P27
+I19,Plant,Sunt ratione dolores nihil a hic in.,2500,44,4.75,G143,P4
+I190,Tool,Aliquam et eum blanditiis soluta explicabo veniam.,17500,84,1.51,C89,T7
+I191,Soil,Mollitia dolor non minima quam optio.,1000,21,2.6,C198,S4
+I192,Plant,Molestias maxime porro numquam.,24850,52,1.67,G3,P20
+I193,Soil,Blanditiis earum architecto maiores facilis pariatur.,4800,75,1.95,N37,S19
+I194,Soil,Eum cupiditate cumque sint omnis in.,19600,36,3.96,N47,S8
+I195,Tool,Distinctio qui quod doloribus excepturi ea beatae.,8150,10,4.81,N24,T14
+I196,Tool,Maxime dolore odit tenetur architecto.,12500,35,3.19,N14,T19
+I197,Soil,Tempora illo in explicabo facilis minus.,12250,48,1.63,C26,S2
+I198,Tool,Impedit perspiciatis cum nihil facilis voluptatem mollitia.,15200,43,2.03,C23,T17
+I199,Seed,Ut ad asperiores voluptatum delectus itaque sed.,20950,32,3.39,G103,E25
+I2,Plant,Occaecati quia animi enim rem ad.,17550,47,4.7,C184,P14
+I20,Plant,Eos magnam dolorum.,17850,2,2.06,N6,P28
+I200,Tool,Placeat at omnis provident officiis.,17450,64,2.03,N8,T19
+I21,Soil,Dolor minus dolores impedit cum vitae.,2150,47,2.76,G120,S16
+I22,Soil,Quis temporibus deleniti accusamus velit.,5100,6,1.62,G194,S7
+I23,Soil,Quaerat dolore doloremque pariatur consectetur.,14850,25,2.01,C12,S11
+I24,Plant,Velit officiis odio a exercitationem quod.,10600,1,2.97,C54,P28
+I25,Soil,Ullam quos similique mollitia excepturi.,23250,8,3.82,C168,S13
+I26,Soil,Placeat a ex.,7500,36,1.61,C10,S2
+I27,Tool,Magnam vitae earum aliquid nostrum excepturi occaecati quisquam.,17750,38,1.87,G12,T19
+I28,Seed,Perferendis amet aliquam esse enim deleniti.,11550,11,2.74,G43,E16
+I29,Tool,Fuga maiores debitis minus velit.,4050,1,1.84,C9,T15
+I3,Seed,Quasi quae minima.,15550,2,2.63,C105,E9
+I30,Tool,Dignissimos soluta nostrum rem.,21150,2,2.41,N2,T14
+I31,Plant,Modi deleniti odit.,10300,36,2.54,C45,P7
+I32,Soil,Ex perspiciatis mollitia itaque labore.,19200,3,2.56,C58,S8
+I33,Plant,Corrupti adipisci nihil quibusdam eos aliquam sit corrupti.,7550,66,2.71,N3,P2
+I34,Seed,Tempora natus ullam eaque numquam sed tempora facilis.,9300,21,2.82,C149,E30
+I35,Soil,Explicabo ipsam excepturi quaerat perspiciatis placeat praesentium.,15950,98,4.68,G103,S15
+I36,Plant,Blanditiis ab molestias blanditiis.,20500,13,2.03,C113,P11
+I37,Plant,Consectetur provident ea esse.,2000,9,4.34,N29,P12
+I38,Plant,Tempora natus maiores voluptas at.,11450,74,3.8,C113,P3
+I39,Tool,Dolores culpa reiciendis deserunt tempore.,21200,45,2.17,C148,T10
+I4,Plant,Esse illo ducimus itaque ipsam.,23850,29,3.44,C116,P26
+I40,Tool,Id ipsum totam numquam.,13100,11,3.81,C75,T15
+I41,Plant,Maxime at maxime sint tempore nulla aliquam.,1300,90,3.18,N28,P29
+I42,Soil,Corporis eum esse qui quasi ut fugiat.,8500,37,3.64,G119,S7
+I43,Tool,Ullam quod id.,25000,32,4.06,G60,T13
+I44,Tool,Illum maiores ipsum iure tenetur.,7150,43,3.32,C16,T18
+I45,Seed,Illum iure delectus fugit similique quidem.,2800,81,1.95,C112,E7
+I46,Tool,Minus fugiat fuga mollitia nisi neque debitis.,12650,86,1.79,G115,T6
+I47,Seed,Cupiditate deleniti veniam.,20350,88,1.95,G70,E16
+I48,Plant,Quasi iure ullam facere velit inventore.,11900,71,4.5,G79,P16
+I49,Tool,Voluptatum praesentium eligendi.,2800,9,1.67,C31,T16
+I5,Tool,Modi reiciendis quidem tenetur delectus ab.,3000,31,2.22,G183,T14
+I50,Seed,Ipsum laudantium corporis expedita accusamus vero doloribus.,22500,43,2.41,C33,E23
+I51,Plant,Consequuntur ipsa eveniet possimus tempora dolorum adipisci non.,14750,67,2.43,G18,P5
+I52,Tool,Aspernatur ab recusandae rerum ea perferendis.,21750,2,2.27,N7,T3
+I53,Plant,Iste et cupiditate doloremque.,23750,2,4.55,N48,P27
+I54,Seed,Ullam quod laboriosam saepe amet quibusdam adipisci occaecati.,23850,61,1.97,N49,E11
+I55,Seed,Sit ut repudiandae quisquam odio nesciunt quo tempore.,2000,46,4.42,N21,E12
+I56,Tool,Quibusdam nisi nobis ipsam repudiandae aut eaque.,15250,21,1.96,G20,T2
+I57,Soil,Officiis ipsum quam perferendis impedit.,18750,6,1.79,N40,S7
+I58,Soil,Voluptatum fugit iure esse aut harum cumque.,13950,30,4.92,N18,S9
+I59,Soil,Ea aspernatur expedita autem nostrum non quam.,9000,19,4.24,N28,S1
+I6,Soil,Laudantium eveniet deleniti vel aperiam nesciunt quo.,7200,83,4.7,C1,S17
+I60,Seed,Natus dolor cupiditate voluptate sunt quos molestiae.,11900,57,4.48,G167,E24
+I61,Plant,Magni voluptate nisi consectetur iusto.,18800,1,2.56,N42,P12
+I62,Seed,Dolorum praesentium quos beatae alias quo quo commodi.,17450,6,2.74,N50,E9
+I63,Soil,Architecto illum excepturi maiores voluptatibus iusto expedita.,9000,9,2.72,C80,S15
+I64,Tool,Distinctio soluta tempore ut omnis possimus.,10550,49,2.53,N27,T17
+I65,Tool,Cum sint optio.,14650,1,3.73,C188,T17
+I66,Seed,Quia non quo quod odio cumque facere.,22250,85,3.4,G75,E23
+I67,Soil,Amet nisi quo itaque.,16650,3,2.01,N42,S5
+I68,Soil,Ad non expedita dolorem.,16950,11,3.16,N27,S12
+I69,Seed,Cum similique veritatis illum quasi earum inventore veritatis.,5750,37,4.9,C35,E17
+I7,Plant,Eos molestias veritatis quasi nihil ipsam placeat.,13650,78,4.06,N20,P24
+I70,Seed,Minima incidunt ipsam labore quia.,23750,85,2.27,G67,E14
+I71,Tool,Harum voluptatum dolorum nesciunt.,6400,33,4.12,C176,T14
+I72,Tool,Fugit sunt quisquam suscipit ullam.,24850,25,4.38,N10,T6
+I73,Seed,Ut molestiae nam.,18450,21,2.67,G14,E7
+I74,Plant,Sit eum non beatae neque molestias beatae.,1950,1,4.63,N48,P15
+I75,Soil,Cumque praesentium illum totam sint minus.,13300,14,4.54,C63,S13
+I76,Soil,Repellat sapiente nihil minima asperiores.,14800,93,2.33,N41,S9
+I77,Soil,Nam eveniet placeat autem exercitationem odit.,5900,17,3.53,C180,S5
+I78,Plant,Deleniti nam repellat modi veritatis.,11950,93,2.09,C186,P29
+I79,Soil,Quam officiis earum harum natus.,17150,3,1.7,C12,S3
+I8,Seed,Exercitationem alias perspiciatis quibusdam.,10600,12,4.32,G179,E18
+I80,Seed,Sunt expedita blanditiis iste quasi dolores dicta.,25000,19,4.84,N40,E14
+I81,Plant,Recusandae harum reprehenderit enim modi illum.,1550,1,2.12,N47,P10
+I82,Tool,Minima incidunt enim nam assumenda odit.,13350,53,1.85,N35,T4
+I83,Tool,Assumenda dolores accusamus veniam atque sunt.,17250,2,3.38,C42,T19
+I84,Tool,Facilis rem accusamus tempora incidunt deserunt id quae.,25000,9,4.33,N30,T16
+I85,Soil,Repellendus sequi nobis saepe deleniti exercitationem necessitatibus.,23500,8,2.36,C183,S8
+I86,Plant,Eius praesentium libero veritatis voluptatem tempora.,9000,1,3.97,C120,P3
+I87,Plant,Fugit culpa enim nemo fuga expedita dolor.,14300,30,3.04,G110,P20
+I88,Soil,Officiis autem maxime tempore illo odio natus maxime.,16900,17,4.94,G124,S19
+I89,Tool,Nam rem necessitatibus.,2500,4,2.87,G99,T8
+I9,Soil,Harum ratione minima ad.,7750,1,4.25,G118,S9
+I90,Tool,Autem molestias autem.,22150,2,2.54,G114,T7
+I91,Plant,Officia rem quos debitis quibusdam.,7250,75,4.12,G182,P27
+I92,Soil,Eius ipsam sunt adipisci sed.,6350,70,4.86,G65,S20
+I93,Seed,Fugit exercitationem voluptatem.,9050,50,2.11,N4,E7
+I94,Seed,Qui veniam eligendi odio sequi.,21700,60,3.28,N31,E1
+I95,Plant,Similique iste repellat magnam amet nesciunt.,13400,6,3.0,C46,P25
+I96,Seed,Consectetur eos deleniti.,1150,69,4.72,G61,E14
+I97,Tool,Eos explicabo fuga eaque nemo.,11650,70,3.86,G149,T20
+I98,Seed,Blanditiis praesentium quasi necessitatibus.,10350,30,2.94,G198,E10
+I99,Seed,Quaerat voluptatibus voluptas eius.,4100,22,3.56,N35,E26
+p2,plant,shs,45,9,1.0,C204,1

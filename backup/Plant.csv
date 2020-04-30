@@ -1,0 +1,31 @@
+PlantID,Name,SoilID,Irrigation_Requirements,Environment,Comments
+P1,Rose,S4,Surface irrigation,Highland,Suscipit blanditiis doloremque minima neque iste.
+P10,Lilac,S9,Localized irrigation,Temperate,Sunt itaque incidunt laudantium dignissimos inventore soluta.
+P11,Gardenia,S1,Center pivot irrigation,Damp Tropical,Dolore ipsa assumenda iusto ducimus.
+P12,Jasmine,S20,Localized irrigation,Cold Tundra,Perferendis a voluptas a.
+P13,Neem,S20,Drip irrigation,Damp Tropical,Ullam voluptate officiis aut odit iusto dicta earum.
+P14,SpinachMagnolia,S1,Center pivot irrigation,Wet,Magni maiores quos maiores impedit pariatur.
+P15,Hyacinth,S1,Sprinkler irrigation,Cold Tundra,Enim iusto quasi nesciunt ad ut.
+P16,Lilly,S1,Surface irrigation,Mild Mediterranean,Soluta cupiditate occaecati repellendus accusantium fugit.
+P17,Potato,S6,Localized irrigation,Damp Tropical,Asperiores eaque optio reiciendis rerum temporibus cumque.
+P18,Tomato,S3,Surface irrigation,Temperate,Accusamus harum veniam corrupti veniam quis aliquam.
+P19,Raddish,S10,Drip irrigation,Highland,Aliquid minima occaecati quaerat tempora.
+P2,Carnation,S2,Drip irrigation,Damp Tropical,Dolore repudiandae dolores debitis.
+P20,Broccoli,S19,Lateral move irrigation,Mild Mediterranean,Ullam nesciunt dolorum reiciendis iste.
+P21,Pumpkin,S5,Manual irrigation,Mild Mediterranean,Molestias excepturi minus odio modi omnis aperiam.
+P22,Onion,S11,Sprinkler irrigation,Mild Mediterranean,Unde officia ad necessitatibus voluptatum.
+P23,Mango,S13,Localized irrigation,Cold Tundra,Earum a adipisci ducimus.
+P24,Pepper,S20,Localized irrigation,Arid,Ipsa aspernatur dolores repellat ipsam temporibus.
+P25,Carrots,S13,Drip irrigation,Desert,Recusandae dolorum dolorum assumenda hic maiores quisquam.
+P26,Venus Fly Trap,S5,Manual irrigation,Wet,Doloremque reprehenderit et facere laudantium similique.
+P27,Cactus,S14,Drip irrigation,Desert,Quaerat at vel illo necessitatibus molestias hic.
+P28,Cauliflower,S4,Surface irrigation,Tropical wet,Architecto sed laboriosam dolores deserunt veniam reiciendis.
+P29,Cabbage,S18,Manual irrigation,Subarctic,Debitis repudiandae nostrum numquam.
+P3,Tulip,S8,Drip irrigation,Damp Tropical,Vero eos facilis.
+P30,Beetroot,S2,Localized irrigation,Temperate,Itaque quia dicta laboriosam molestiae quis.
+P4,Daisy,S17,Sprinkler irrigation,Mild Mediterranean,Vitae rerum quis voluptate occaecati.
+P5,Sunflower,S5,Localized irrigation,Tropical wet,Provident debitis fuga odit quam impedit molestiae.
+P6,Daffodil,S5,Center pivot irrigation,Desert,Consequuntur odio eaque dolores ipsam asperiores.
+P7,Gerbera,S17,Sprinkler irrigation,Polar,A reprehenderit enim quibusdam.
+P8,Orchid,S16,Manual irrigation,Polar,Quos provident architecto sit doloribus.
+P9,Iris,S16,Sub-irrigation,Cold Tundra,Quas reiciendis beatae voluptates architecto.
