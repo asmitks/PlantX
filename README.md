@@ -1,5 +1,5 @@
 # PlantX
-DBMS Project website link: http://3.7.71.88/
+The website is no longer hosted on a server. Run main.py present in the project folder to locally host it.
 
 ## Abstract
 PlantXchange is an application which provides gardening solutions.
@@ -38,5 +38,3 @@ It not only provides an online shopping station for plants, seeds, gardening too
 * SQL
 * ODBC
 * Lucid Chart
-
-
