@@ -25,6 +25,32 @@ It not only provides an online shopping station for plants, seeds, gardening too
   <img src="DBMS.png">
 </p>
 
+## Website
+
+<p align="center">
+  <img src="/images/1.jpeg">
+</p>
+
+<p align="center">
+  <img src="/images/2.jpeg">
+</p>
+
+<p align="center">
+  <img src="/images/3.jpeg">
+</p>
+
+<p align="center">
+  <img src="/images/4.jpeg">
+</p>
+
+<p align="center">
+  <img src="/images/5.jpeg">
+</p>
+
+<p align="center">
+  <img src="/images/6.jpeg">
+</p>
+
 ## Technologies Used : 
 * Git
 * Python3 
