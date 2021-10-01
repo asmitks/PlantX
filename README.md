@@ -64,3 +64,7 @@ It not only provides an online shopping station for plants, seeds, gardening too
 * SQL
 * ODBC
 * Lucid Chart
+
+## Acknowledgement
+
+This project was created as a course project for Database and Management Systems taught by Dr. Mukesh Mohania.
